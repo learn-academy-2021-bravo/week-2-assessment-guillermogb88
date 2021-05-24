@@ -40,7 +40,13 @@
 
         render(){
           return(
+            //at first i thought it was a class inheritance issue because thats what the proble says on VS code
 
+            //then looked at the errors in the browser it said that it was missing the opening and closing carrots. I put those on in the VS code and it got rid of the problems tab but it showed even more errors in my browser.
+
+
+
+              <>
               <h1>Welcome to the Mood Meter App</h1>
 
               <h3>Mood Options:</h3>
@@ -52,7 +58,7 @@
               <button onClick={ handleMoodOptions }>
                 Click Here For Next Mood option
               </button>
-
+                </>
           )
         }
       }
